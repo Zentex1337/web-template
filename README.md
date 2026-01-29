@@ -1,4 +1,4 @@
-# Monitor
+# Web Template
 
 A minimal Express.js web app with EJS templating.
 
