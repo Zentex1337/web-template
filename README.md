@@ -1,6 +1,37 @@
+# Monitor
 
-# Haikus for Codespaces
+A minimal Express.js web app with EJS templating.
 
-This is a quick node project template for demoing Codespaces. It is based on the [Azure node sample](https://github.com/Azure-Samples/nodejs-docs-hello-world). It's great!!!
+## Tech Stack
 
-Point your browser to [Quickstart for GitHub Codespaces](https://docs.github.com/en/codespaces/getting-started/quickstart) for a tour of using Codespaces with this repo.
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000?style=flat&logo=express&logoColor=white)
+![EJS](https://img.shields.io/badge/EJS-B4CA65?style=flat&logo=ejs&logoColor=black)
+
+## Quick Start
+
+```bash
+# Install dependencies
+npm install
+
+# Run dev server
+npm run dev
+
+# Or production
+npm start
+```
+
+Server runs on `http://localhost:3000`
+
+## Structure
+
+```
+├── index.js        # Express server
+├── views/          # EJS templates
+├── public/         # Static assets
+└── haikus.json     # Data file
+```
+
+## License
+
+MIT
